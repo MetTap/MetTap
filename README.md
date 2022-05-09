@@ -1,9 +1,9 @@
-##Instalation:
+#Instalation:
 ==
-1.Install Eclipse
-===
-Install eclipse program
-===
+##1.Install Eclipse
+
+###Install eclipse program
+
 First, search with the browser to open https://eclipse.org 
 
 Click down in the upper right corner
@@ -16,8 +16,8 @@ After downloading, there is an EXE package
 
 We know that eclipse is written in Java language, so we need to download JRE compatible with Java language environment
 
-JRE Download
-===
+###JRE Download
+
 Enter Oracle's official website: www.oracle.com com
 
 Find Java in the products library and click
@@ -28,8 +28,8 @@ Then find the JDK that matches the running version of the computer exe; Take the
 
 Click open after downloading
 
-Configuration of environmental variables
-===
+###Configuration of environmental variables
+
 After the JDK download is opened, many files will appear. Click bin
 
 Right click to copy its path
@@ -48,30 +48,30 @@ Paste the copied path
 
 After configuration, make sure to go all the way down and start the inspection of Java environment
 
-Inspection of environmental variables
-===
+###Inspection of environmental variables
+
 Open CMD (Ctrl + R) and enter javac exe
 
 The following contents can prove that the environment configuration is completed
 
 After the above work is completed, start the installation of eclipse software package
 
-Install the eclipse IDE
-===
+###Install the eclipse IDE
+
 Click the previously downloaded esclipse Exe open
 
 The following interface appears, click the second eclipse ide to install
 
-Configure working directory
-===
+###Configure working directory
+
 After downloading successfully
 
 Click launch launch to run! Configure workspace directory (where programs are placed)
 
 Launch confirms that the installation of eclipse software is completed
 
-2.Install Xtext
-===
+##2.Install Xtext
+
 Select Help in Eclipse
 
 install new software, add 
@@ -80,8 +80,8 @@ site:http://download.itemis.de/updates , the site contains all the required and 
 
 Select the xtext SDK in the TMF xtext category, and then click Next until you see the finish wizard
 
-3.Install Matlab
-===
+##3.Install Matlab
+
 Open the downloaded and unzipped installation package
 
 Click to run setup setup as an administrator
@@ -114,8 +114,8 @@ Duble click the MATLAB icon on the desktop to enter the software and use it
 
 If you have never used S-TaLiRO, download and install from this https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download
 
-4.Install Home-Assistant
-===
+##4.Install Home-Assistant
+
 Installing Python 3
 
 Home assistant needs to run in a python 3 environment. The installable version of Python 3 is 3.6.
