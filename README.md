@@ -1,11 +1,11 @@
 #MetTap
 
 ##Tools:
+==
+1.Install Eclipse
 
-1.Eclipse
+2.Install Xtext
 
-2.Xtext
+3.Install Matlab
 
-3.Matlab
-
-4.Home-Assistant
+4.Install Home-Assistant
