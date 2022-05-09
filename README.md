@@ -1,6 +1,6 @@
 #MetTap
 
-##Installion:
+##Instalation:
 ==
 1.Install Eclipse
 ===
@@ -114,7 +114,7 @@ Go back to the bin folder under the custom installation matlab directory and fin
 
 Duble click the MATLAB icon on the desktop to enter the software and use it
 
-If you have never used S-TaLiRO, download and install from this
+If you have never used S-TaLiRO, download and install from this https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download
 
 4.Install Home-Assistant
 ===
