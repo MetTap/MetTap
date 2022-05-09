@@ -182,7 +182,7 @@ public class AddNewProperty   extends JFrame implements ActionListener,ItemListe
 			{
 				
 			}
-			public void valueChanged(ListSelectionEvent e) //jls
+			public void valueChanged(ListSelectionEvent e) 
 			{				
 				
 			}
