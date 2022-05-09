@@ -1,7 +1,7 @@
 #Instalation:
-==
+=
 ##1.Install Eclipse
-
+==
 ###Install eclipse program
 
 First, search with the browser to open https://eclipse.org 
@@ -71,7 +71,7 @@ Click launch launch to run! Configure workspace directory (where programs are pl
 Launch confirms that the installation of eclipse software is completed
 
 ##2.Install Xtext
-
+==
 Select Help in Eclipse
 
 install new software, add 
@@ -81,7 +81,7 @@ site:http://download.itemis.de/updates , the site contains all the required and 
 Select the xtext SDK in the TMF xtext category, and then click Next until you see the finish wizard
 
 ##3.Install Matlab
-
+==
 Open the downloaded and unzipped installation package
 
 Click to run setup setup as an administrator
@@ -115,7 +115,7 @@ Duble click the MATLAB icon on the desktop to enter the software and use it
 If you have never used S-TaLiRO, download and install from this https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download
 
 ##4.Install Home-Assistant
-
+==
 Installing Python 3
 
 Home assistant needs to run in a python 3 environment. The installable version of Python 3 is 3.6.
