@@ -74,6 +74,13 @@ Launch confirms that the installation of eclipse software is completed
 
 2.Install Xtext
 ===
+Select Help in Eclipse
+
+install new software, add 
+
+site:http://download.itemis.de/updates , the site contains all the required and optional xtext components
+
+Select the xtext SDK in the TMF xtext category, and then click Next until you see the finish wizard
 
 3.Install Matlab
 ===
