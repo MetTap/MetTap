@@ -1,0 +1,75 @@
+[
+  {
+    'trigger': [
+      {
+        'text': [
+          'IF',
+          'Tom',
+          'leaves',
+          'the',
+          'room',
+          'AND'
+        ],
+        'name': {
+          'input_boolean.tom_room'
+        },
+        'bool': 'false',
+        'region': {
+          'input_boolean.light',
+          'input_boolean.tom_room'
+        },
+        'entities': {
+          'input_boolean.tom_room'
+        }
+      },
+      {
+        'text': [
+          'G',
+          ':',
+          '[',
+          '0,5',
+          ']',
+          'the',
+          'room',
+          'light',
+          'is',
+          'on',
+          'THEN'
+        ],
+        'MT': 'G',
+        'duration': 5,
+        'region': {
+          'input_boolean.light',
+          'input_boolean.tom_room'
+        },
+        'name': {
+          'input_boolean.light'
+        },
+        'bool': 'true',
+        'entities': {
+          'input_boolean.light'
+        }
+      }
+    ],
+    'action': {
+      'text': [
+        'turn',
+        'off',
+        'the',
+        'room',
+        'light'
+      ],
+      'region': {
+        'input_boolean.light',
+        'input_boolean.tom_room'
+      },
+      'name': {
+        'input_boolean.light'
+      },
+      'entities': {
+        'input_boolean.light'
+      }
+    },
+    'busy': 'false'
+  }
+]
