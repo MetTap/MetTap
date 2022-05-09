@@ -1,5 +1,3 @@
-#MetTap
-
 ##Instalation:
 ==
 1.Install Eclipse
@@ -118,3 +116,14 @@ If you have never used S-TaLiRO, download and install from this https://sites.go
 
 4.Install Home-Assistant
 ===
+Installing Python 3
+
+Home assistant needs to run in a python 3 environment. The installable version of Python 3 is 3.6.
+
+Installing home assistant dependent Libraries
+
+Create venv environment
+
+Install home assistant
+
+Install directly using pip
