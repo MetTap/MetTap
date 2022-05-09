@@ -84,6 +84,35 @@ Select the xtext SDK in the TMF xtext category, and then click Next until you se
 
 3.Install Matlab
 ===
+Open the downloaded and unzipped installation package
+
+Click to run setup setup as an administrator
+
+Select file key and click next
+
+On the license agreement page, select Yes, next
+
+Select the installation key and put the key in the installation package Txt and paste it into the key box
+
+Select the custom installation path and click next. Note that the storage space of the installation path is at least 20G
+
+Check the box in front of the product and click next
+
+Check the desktop and click next
+
+Click Install
+
+Installation in progress, waiting
+
+Click next. On the page after installation, click finish
+
+Copy the entire bin folder under the crack folder of the installation package and paste it into the custom installation directory where MATLAB has just been installed
+
+Copy the license under the crack folder of the installation package_ stadalone. The license file and paste it into the customized installation directory under the licenses folder when installing MATLAB
+
+Go back to the bin folder under the custom installation matlab directory and find MATLAB Exe file, click and right-click to select the shortcut to send to the desktop, so that you can see matlab on the desktop
+
+Duble click the MATLAB icon on the desktop to enter the software and use it
 
 4.Install Home-Assistant
 ===
