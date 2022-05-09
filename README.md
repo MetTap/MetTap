@@ -127,3 +127,11 @@ Create venv environment
 Install home assistant
 
 Install directly using pip
+
+#How to use?
+=
+Eclipse
+Matlab
+Xtext
+
+Home Assistant
