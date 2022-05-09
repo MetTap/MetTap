@@ -1,6 +1,6 @@
 #MetTap
 
-##Tools:
+##Installion:
 ==
 1.Install Eclipse
 ===
@@ -113,6 +113,8 @@ Copy the license under the crack folder of the installation package_ stadalone. 
 Go back to the bin folder under the custom installation matlab directory and find MATLAB Exe file, click and right-click to select the shortcut to send to the desktop, so that you can see matlab on the desktop
 
 Duble click the MATLAB icon on the desktop to enter the software and use it
+
+If you have never used S-TaLiRO, download and install from this
 
 4.Install Home-Assistant
 ===
