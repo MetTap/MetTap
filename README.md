@@ -128,10 +128,15 @@ Install home assistant
 
 Install directly using pip
 
-#How to use?
+#Contents
 =
-Eclipse
-Matlab
-Xtext
+##Eclipse: Main Code
 
-Home Assistant
+##Matlab: S-Taliro Tool 
+
+##Xtext: DSL
+
+##Home Assistant: HA Rules
+
+##Case Study
+
