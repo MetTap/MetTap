@@ -22,7 +22,7 @@ public class Runtime_Verification
 		List<String> MapList = Get.getContents(file5); 
 		Trace_Slice datapro=new Trace_Slice();
 		Class1 rv=new Class1();
-		for(int i=0;i<1;i++)
+				for(int i=0;i<mtlList.size();i++)
 		{
 			double clg[][]=datapro.readSpecifyColumns(MapList.get(i));
 			double a[][]= new double [clg[0].length][3];
@@ -41,7 +41,12 @@ public class Runtime_Verification
 			MWNumericArray Clg = new MWNumericArray(a,MWClassID.DOUBLE);	 
 			MWNumericArray Time = new MWNumericArray(time,MWClassID.DOUBLE);
 			Object[] res = rv.RV(1,mtlList.get(i),strList.get(i),AList.get(i),bList.get(i),Clg,Time);
-			System.out.println(res[0]);	
-		}	
+			double result =(double) res[0];
+			if(result != 0.5)
+			{
+				System.out.println( "Rule"+i+":Error");	
+			}
+			
+		}
 	}
 }
