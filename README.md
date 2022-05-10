@@ -21,6 +21,7 @@
 ## Contents
 
 #### 1. Development Support
+For the development support module, we provide two editors for specifying MetTap rules and used-defined properties as the interface for users.We implement the development environment for MetTap rules with Xtext, an Eclipse-based tool for designing textual DSLs. With this tool, a domain-specific editor has some functions, such as syntax highlighting and syntax errors display.
 
 #### 2. Runtime Support
 
