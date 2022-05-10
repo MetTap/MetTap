@@ -30,7 +30,7 @@ public class AddNewProperty   extends JFrame implements ActionListener,ItemListe
 			setBounds(500,200,480,280);
 			setTitle("Add User-Defined Properties");
 			setResizable(false);
-			j.setLayout(null);  //空布局
+			j.setLayout(null);  
 			
 			int i;
 			for(i=0;i<s1.length;i++)
@@ -57,7 +57,7 @@ public class AddNewProperty   extends JFrame implements ActionListener,ItemListe
 		    jf3.setBounds(165, 10, 150, 25);    		    
 		    
 		    jls.setBounds(15, 60, 320, 150);
-			jls.setSelectionMode(ListSelectionModel.SINGLE_SELECTION); //单选
+			jls.setSelectionMode(ListSelectionModel.SINGLE_SELECTION); 
 			jls.addListSelectionListener(this);
 			
 			j.add(btn[0]);
@@ -79,7 +79,7 @@ public class AddNewProperty   extends JFrame implements ActionListener,ItemListe
 			
 		    add(j);				
 			
-			setVisible(true);  //记得放在最后，可一次性顺利加载所有组件
+			setVisible(true);  
 		}
 			public void actionPerformed(ActionEvent e)
 			{
@@ -182,7 +182,7 @@ public class AddNewProperty   extends JFrame implements ActionListener,ItemListe
 			{
 				
 			}
-			public void valueChanged(ListSelectionEvent e) //jls
+			public void valueChanged(ListSelectionEvent e) 
 			{				
 				
 			}
