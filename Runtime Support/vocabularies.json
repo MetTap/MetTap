@@ -1,0 +1,39 @@
+{
+  "condition_below": [
+    "below",
+    "under",
+    "less"
+  ],
+  "condition_above": [
+    "above",
+    "greater",
+    "raise",
+    "more"
+  ],
+  "time_start": [
+    "start",
+    "after"
+  ],
+  "time_end": [
+    "end",
+    "before"
+  ],
+  "bool_true": [
+    "enter",
+    "on",
+    "deliver",
+    "in",
+    "ready",
+    "wake",
+    "at"
+  ],
+  "bool_false": [
+    "set",
+    "leave",
+    "off"
+  ],
+  "bool_not": [
+    "not",
+    "n't"
+  ]
+}
