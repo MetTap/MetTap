@@ -34,9 +34,11 @@ The runtime support module of our platform contains three components: device con
 Step1: Create an python project in Python IDE           
 Step2: Import HA.py codes      
 Step3: Writing the mapping information of entity IDs and events/states, such as:entities.json, vocabularies.json      
-Step4: Load MetTap rules from 
-Step4: Establish a connection with Home Assistant system     
-Step5: Run this project   
+Step4: Load MetTap rules from Rules.txt
+Step5: Run Home Assistant system and this project   
+Step6: Change the state of devices/sensors in Home Assistant system
+Step7: If the triggers are satisfied, the action will be executed. Otherwise,it will not be executed    
+Step8: Store the state datas in sensor_data.csv    
 
 #### 3. Runtime Verification
 For the runtime verification module, we provide the monitoring function to verify the properties and give feedback with verification results.
