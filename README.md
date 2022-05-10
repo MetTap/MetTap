@@ -40,13 +40,8 @@ Step5: Run this project
 For the runtime verification module, we provide the monitoring function to verify the properties and give feedback with verification results.
 In this module, we generate monitors with MTL properties. 
 These properties include the properties translated from MetTap rules automatically and user-defined ones.  
-  
-Step1: Create Get.class file in MetTap project   
-Step2: Create Put.class file in MetTap project   
-Step3: Create MTL.class file in MetTap project   
-Step4: Create MapMTL.class file in MetTap project   
-Step5: Create Trace_Slice.class file in MetTap project   
-Step6: Create Runtime_Verification.class file in MetTap project   
+
+Step1: Create six files including Get.class, Put.class, MTL.class, MapMTL.class, Trace_Slice.class, and Runtime_Verification.class in MetTap project and import these codes with corresponding .java files        
 Step7: Import these codes    
 Step8: Create RV.m file in Matlab  
 Step9: Import the codes     
