@@ -1,0 +1,10 @@
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom leaves the room AND the room light is off THEN turn off the room light.
