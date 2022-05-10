@@ -10,7 +10,7 @@
 #### 4. Install Home-Assistant
   Version: Python 3.8
 ## How to use ?
-Note: You should make sure that all the softwares have been installed and can be used normally.
+Note: You should make sure that all the above softwares have been installed and can be used normally.
 #### 1. Development Support
 For the development support module, we provide two editors for specifying MetTap rules and used-defined properties as the interface for users.
 We implement the development environment for MetTap rules with Xtext, an Eclipse-based tool for designing textual DSLs. 
@@ -53,7 +53,7 @@ Step6: Change the state of devices/sensors in Home Assistant system
 
 Step7: If the triggers are satisfied, the action will be executed. Otherwise,it will not be executed    
 
-Step8: Store the state datas in sensor_data.csv    
+Step8: Store the state data in sensor_data.csv    
 
 #### 3. Runtime Verification
 For the runtime verification module, we provide the monitoring function to verify the properties and give feedback with verification results.
@@ -61,19 +61,21 @@ In this module, we generate monitors with MTL properties.
 These properties include the properties translated from MetTap rules automatically and user-defined ones.  
 
 
-Step1: Import RV.m file into Matlab           
+Step1: Import RV.m file into Matlab  
 
-Step2: Enter the "deploytool" command under the command window in Matlab to open the deployment tool     
+Step2: Package the RV.m file into .jar file
 
-Step3: Create a new project Runtime.prj     
+  Step2.1: Enter the "deploytool" command under the command window in Matlab to open the deployment tool     
 
-Step4: Select "java package" and click "ok"     
+  Step2.2: Create a new project Runtime.prj     
 
-Step5: Click "add" to add a Java class named Class1    
+  Step2.3: Select "java package" and click "ok"     
 
-Step6: Click "add files" to add the RV.m file   
+  Step2.4: Click "add" to add a Java class named Class1    
 
-Step7: Click "compile" to generate the Runtime.jar   
+  Step2.5: Click "add files" to add the RV.m file   
+
+  Step2.6: Click "compile" to generate the Runtime.jar   
 
 Step8: Import .java files of Runtime Verification package into MetTap project   
 
