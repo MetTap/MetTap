@@ -13,7 +13,8 @@ Note: You should make sure that all the softwares have been installed and can be
 #### 1. Development Support
 For the development support module, we provide two editors for specifying MetTap rules and used-defined properties as the interface for users.
 We implement the development environment for MetTap rules with Xtext, an Eclipse-based tool for designing textual DSLs. 
-With this tool, a domain-specific editor has some functions, such as syntax highlighting and syntax errors display.  
+With this tool, a domain-specific editor has some functions, such as syntax highlighting and syntax errors display. 
+
 Step1: Create an Xtext project in Eclipse     
 Step2: Modify .xtext file    
 Step3: Run this project to write MetTap rules   
