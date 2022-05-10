@@ -51,7 +51,7 @@ Step5: Run Home Assistant system and this project
 
 Step6: Change the state of devices/sensors in Home Assistant system
 
-Step7: If the triggers are satisfied, the action will be executed. Otherwise,it will not be executed    
+Step7: If the triggers are satisfied, the action will be executed. Otherwise, it will not be executed    
 
 Step8: Store the state data in sensor_data.csv    
 
@@ -98,4 +98,4 @@ Performance Analysis Rules--- PARules.txt
 
 Performance Analysis Data--- Example.csv
 
-In the first experiment, we consider two factors which will have an influence on the performance of runtime verification, i.e., the number of properties and amount of running state data. We adjust the amount of running state data from 500 to 5000. At the same time, we also adjust the number of properties from 10 to 50. For each experiment, the simulation system runs 30 times, and the time  overhead with a specific amount of data and number of properties is recorded and averaged.
+In the first experiment, we consider two factors which will have an influence on the performance of runtime verification, i.e., the number of properties and amount of running state data. We adjust the amount of running state data from 500 to 5000. At the same time, we also adjust the number of properties from 10 to 50. For each experiment, the simulation system runs 30 times, and the time overhead with a specific amount of data and number of properties is recorded and averaged.
