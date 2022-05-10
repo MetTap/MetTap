@@ -18,7 +18,7 @@ from nltk.tokenize import word_tokenize
 
 
 sys_start = datetime.now()
-# 词干提取器
+
 ps = PorterStemmer()
 
 
@@ -43,15 +43,15 @@ def is_number(s):
 with open("vocabularies.json", "r") as f:
     vocabulary = json.load(f)
 
-# 数值类词汇表
+
 condition_below = vocabulary["condition_below"]
 condition_above = vocabulary["condition_above"]
 
-# 时间类词汇表
+
 time_start = vocabulary["time_start"]
 time_end = vocabulary["time_end"]
 
-# 逻辑类词汇表
+
 bool_true = vocabulary["bool_true"]
 bool_false = vocabulary["bool_false"]
 bool_not = vocabulary["bool_not"]
@@ -64,7 +64,7 @@ bool_not_set = set()
 bool_true_set = set()
 bool_false_set = set()
 
-# 词汇表预处理，提取词干
+
 
 for item in condition_above:
     v = ps.stem(item)
@@ -88,17 +88,17 @@ for item in bool_false:
     v = ps.stem(item)
     bool_false_set.add(v)
 
-# 本地配置设备实体信息
+
 with open("entities.json", "r") as f:
     entities = json.load(f)
 
-# 区域内实体的map
+
 region_entities = dict()
-# 由名称找实体的map
+
 name_entities = dict()
-# 值为bool类型的set
+
 bool_entities = set()
-# 值为number类型的set
+
 number_entities = set()
 eid_name_map = dict()
 
@@ -134,11 +134,11 @@ for entity in entities:
 with open("rules.txt", "r") as f:
     __rules = f.read().split("\n")
 
-# 保存所有规则
+
 rules = []
 
 for __rule in __rules:
-    # 排除空行
+
     if len(__rule) == 0:
         continue
     words = word_tokenize(__rule)
