@@ -1,5 +1,0 @@
-set
-leave
-off
-not
-n't

@@ -1,7 +1,0 @@
-(G The smoked fire alerter is working)
-(Tom enters the bathroom)—>(F_[0,30] he should leave)
-(Turn on the TV)—>(G_[0,10] the TV stay on)
-(Mike is at home)/\(! Bob is at home)—>(! the TV is on)
-(Jake is at home)\/(Bob is at home)—>(the windows are on)
-(G_[0,60] The thermostat stays on)—>(it is off)
-(Turn on the smart light)—>(G_[0,30] the light stays on)

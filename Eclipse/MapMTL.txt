@@ -1,6 +1,0 @@
-tom_room-light-sun
-thermostat-temperature-tom_room
-tom_study-computer-ac
-tom_wake_up-temperature-ac
-tom_home-ac-windows
-time-coffee-coffee_machine

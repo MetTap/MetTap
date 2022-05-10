@@ -1,6 +1,0 @@
-IF Event Tom enters the room AND Event the sun sets F:[0,60] THEN Event turn on the room light.
-IF Event the temperature drops below 10 degree Celsius AND State Tom is in the room G:[0,3] THEN Event turn on the thermostat.
-IF Event Tom enters the study AND Event turn on the computer F:[0,10] THEN State the AC is on.
-IF Event Tom wakes up AND State the temperature belows 15 degree Celsius THEN State the AC is on G:[0,25].
-IF State Tom is at home AND State the AC is on G:[0,60] THEN Event the windows is on G:[0,10].
-IF State it is before 10:00 in the morning AND State coffee was not ready THEN State the coffee machine is on G:[0,10].
