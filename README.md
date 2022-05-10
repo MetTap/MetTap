@@ -16,7 +16,7 @@ We implement the development environment for MetTap rules with Xtext, an Eclipse
 With this tool, a domain-specific editor has some functions, such as syntax highlighting and syntax errors display. 
 
 Step1: Create an Xtext project in Eclipse     
-Step2: Modify .xtext file with the MetTap..xtext codes      
+Step2: Modify .xtext file with the MetTap.xtext codes      
 Step3: Run this project and the specific process can refer to https://www.eclipse.org/Xtext/documentation   
 Step4: Write MetTap rules in the generated entity editor and they will be stored in MetTapRules.txt  
 Step4: Create a Java project named MetTap in Eclipse     
