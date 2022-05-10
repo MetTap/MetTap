@@ -65,17 +65,17 @@ Step1: Import RV.m file into Matlab
 
 Step2: Package the RV.m file into .jar file
 
-  _Step2.1:_ Enter the "deploytool" command under the command window in Matlab to open the deployment tool     
+  _Step2.1: Enter the "deploytool" command under the command window in Matlab to open the deployment tool     
 
-  _Step2.2:_ Create a new project Runtime.prj     
+  _Step2.2: Create a new project Runtime.prj     
 
-  _Step2.3:_ Select "java package" and click "ok"     
+  _Step2.3: Select "java package" and click "ok"     
 
-  _Step2.4:_ Click "add" to add a Java class named Class1    
+  _Step2.4: Click "add" to add a Java class named Class1    
 
-  _Step2.5:_ Click "add files" to add the RV.m file   
+  _Step2.5: Click "add files" to add the RV.m file   
 
-  _Step2.6:_ Click "compile" to generate the Runtime.jar   
+  _Step2.6: Click "compile" to generate the Runtime.jar   
 
 Step3: Import .java files of Runtime Verification package into MetTap project   
 
