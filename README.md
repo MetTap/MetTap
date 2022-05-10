@@ -17,12 +17,12 @@ With this tool, a domain-specific editor has some functions, such as syntax high
 
 Step1: Create an Xtext project in Eclipse     
 Step2: Modify .xtext file with the MetTap.xtext codes      
-Step3: Run this project and the specific process can refer to https://www.eclipse.org/Xtext/documentation   
-Step4: Write MetTap rules in the generated entity editor and they will be stored in MetTapRules.txt  
-Step4: Create a Java project named MetTap in Eclipse     
-Step5: Import AddNewProperty.java file    
-Step6: Run this file
-Step7: Define properties in the interface, which will be stored in User-defined Properties.txt file
+Step3: Run this project and the specific process can refer to https://www.eclipse.org/Xtext/documentation    
+Step4: Write MetTap rules in the generated entity editor and they will be stored in MetTapRules.txt   
+Step5: Create a Java project named MetTap in Eclipse     
+Step6: Import AddNewProperty.java file      
+Step7: Run this file  
+Step8: Define properties in the interface, which will be stored in User-defined Properties.txt file  
 
 #### 2. Runtime Support
 For the runtime support module, we use Home Assistant to manage smart devices. 
