@@ -1,0 +1,36 @@
+Domainmodel:
+	(MetTap+= MetTap)*; 	
+MetTap:
+	'IF' Trigger 'THEN'	Action '.' ;
+Trigger:
+	ETrigger |STrigger;
+Action:	
+	EAction | SAction ;
+ETrigger:
+	Event_Event | Event_State ;
+STrigger:
+	State_State	;
+EAction:
+	Event | MetEvent ;	
+SAction:
+	State | MetState ;	
+Event_Event:
+ 	Event ('AND' MetEvent)* ;
+Event_State:
+	Event ('AND' (MetState|State))+ ;
+State_State:
+	(MetState|State) ('AND' (MetState|State))* ; 		
+MetEvent:
+	Event EventuallyTime ;
+MetState:
+	State AlwaysTime ;
+Event:
+	'Event'(ID)+ ;
+State:
+	'State'(ID)+ ;	
+EventuallyTime:
+	'F:'TimePeriod ;
+AlwaysTime:
+	'G:'TimePeriod ;  	 	
+TimePeriod:
+	'['INT','INT']' ; 
