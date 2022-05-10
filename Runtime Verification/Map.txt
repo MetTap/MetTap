@@ -1,0 +1,14 @@
+tom_room
+light
+sun
+thermostat
+temperature
+tom_study
+computer
+ac
+tom_wake_up
+tom_home
+ac
+windows
+coffee
+coffee_machine
