@@ -32,9 +32,9 @@ We use Home Assistant (HA) as the part of our running support platform.
 The runtime support module of our platform contains three components: device configuration which supports deployment of sensors/actuators, rule transformation which translates MetTap rules to HA rules, and execution which performs the trigger activities of specific devices.  
 
 Step1: Create an python project in Python IDE           
-Step2: Create HA.py file and import codes      
+Step2: Import HA.py codes      
 Step3: Writing the mapping information of entity IDs and events/states, such as:entities.json, vocabularies.json      
-Step4: Load MetTap rules  
+Step4: Load MetTap rules from 
 Step4: Establish a connection with Home Assistant system     
 Step5: Run this project   
 
