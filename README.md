@@ -46,18 +46,17 @@ For the runtime verification module, we provide the monitoring function to verif
 In this module, we generate monitors with MTL properties. 
 These properties include the properties translated from MetTap rules automatically and user-defined ones.  
 
-Step1: Import .java files of Runtime Verification package into MetTap project   
-Step2: Import RV.m file into Matlab        
-Step3: Package the RV.m file into .jar file      
-Step4: Import this jar file in MetTap project
-Step5:    
-Step6: 
-Step7: 
-Step8: 
-Step9:    
-Step10:  
-Step11: 
-Step12: 
+
+Step1: Import RV.m file into Matlab           
+Step2: Enter the "deploytool" command under the command window in Matlab to open the deployment tool       
+Step3: Create a new project Runtime.prj     
+Step4: Select "java package" and click "ok"     
+Step5: Click "add" to add a Java class named Class1    
+Step6: Click "add files" to add the RV.m file   
+Step7: Click "compile" to generate the Runtime.jar   
+Step8: Import .java files of Runtime Verification package into MetTap project   
+Step9: Reference the following two jar packages in MetTap project: Matlab installation directory\toolbox\javabuilder\jar\javabuilder.jar and Runtime.jar     
+Step10: Run the Runtime_Verification.java and the rules will be verified    
 
 #### 4. Case Study
 In this section, we show how MetTap can be used to specify rules with timing constraints and verify whether applications execute correctly in home-based IoT system.  
