@@ -9,11 +9,16 @@
   If you have never used S-TaLiRO, download and install from this https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download
 #### 4. Install Home-Assistant
   Version: Python 3.8
-## Contents
+## How to use ?
+Note: You should make sure that all the softwares have been installed and can be used normally.
 #### 1. Development Support
 For the development support module, we provide two editors for specifying MetTap rules and used-defined properties as the interface for users.
 We implement the development environment for MetTap rules with Xtext, an Eclipse-based tool for designing textual DSLs. 
 With this tool, a domain-specific editor has some functions, such as syntax highlighting and syntax errors display.
+
+Step1: Create an xtext project in Eclipse   
+Step2: Modify .xtext file  
+Step3: Run project to write MetTap rules  
 #### 2. Runtime Support
 For the runtime support module, we use Home Assistant to manage smart devices. 
 A rule transformation component is given to translate MetTap rules into Home Assistant rules.
@@ -28,5 +33,6 @@ These properties include the properties translated from MetTap rules automatical
 In this section, we show how MetTap can be used to specify rules with timing constraints and verify whether applications execute correctly in home-based IoT system.
 ## How to use ?
 
-Note: You should make sure that all the softwares have been installed and can be used normally.
+
+
 
