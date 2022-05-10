@@ -28,4 +28,5 @@ These properties include the properties translated from MetTap rules automatical
 In this section, we show how MetTap can be used to specify rules with timing constraints and verify whether applications execute correctly in home-based IoT system.
 ## How to use ?
 
+Note: You should make sure that all the softwares have been installed and can be used normally.
 
