@@ -17,7 +17,7 @@ With this tool, a domain-specific editor has some functions, such as syntax high
 Step1: Create an Xtext project in Eclipse     
 Step2: Modify .xtext file    
 Step3: Run this project to write MetTap rules   
-Step4: Create a Java project in Eclipse     
+Step4: Create a Java project named MetTap in Eclipse     
 Step5: Create AddNewProperty.class file    
 Step6: Import codes and run this project to define properties   
 #### 2. Runtime Support
