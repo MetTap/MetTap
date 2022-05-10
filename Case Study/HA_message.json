@@ -1,5 +1,0 @@
-{
-  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxYzI4OTkxYjc2NDM0MmYzYWNlMzczZDE1MjU5NDhiZiIsImlhdCI6MTY0Njk4NjQ0NiwiZXhwIjoxOTYyMzQ2NDQ2fQ.4lZYrG3tMcuIAP_W1H1Rp8KdWsHZLuMU20AiObhCNus",
-  "content-type": "application/json",
-  "url": "http://localhost:8123/api/"
-}
