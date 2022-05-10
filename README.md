@@ -5,6 +5,7 @@
   Version: Xtext 2.26.0   
 #### 3. Install Matlab
   Version: MATLAB 9.8 R2020a    
+  
   If you have never used S-TaLiRO, download and install from this https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download
 #### 4. Install Home-Assistant
   Version: Python 3.8
@@ -45,13 +46,18 @@ For the runtime verification module, we provide the monitoring function to verif
 In this module, we generate monitors with MTL properties. 
 These properties include the properties translated from MetTap rules automatically and user-defined ones.  
 
-Step1: Create six files including Get.class, Put.class, MTL.class, MapMTL.class, Trace_Slice.class, and Runtime_Verification.class in MetTap project and import these codes with corresponding .java files        
-Step7: Import these codes    
-Step8: Create RV.m file in Matlab  
-Step9: Import the codes     
-Step10: Package the RV.m file into .jar file  
-Step11: Import this jar file in MetTap project
-Step12: Run this project
+Step1: Import .java files of Runtime Verification package into MetTap project   
+Step2: Import RV.m file into Matlab        
+Step3: Package the RV.m file into .jar file      
+Step4: Import this jar file in MetTap project
+Step5:    
+Step6: 
+Step7: 
+Step8: 
+Step9:    
+Step10:  
+Step11: 
+Step12: 
 
 #### 4. Case Study
 In this section, we show how MetTap can be used to specify rules with timing constraints and verify whether applications execute correctly in home-based IoT system.  
