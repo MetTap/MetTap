@@ -77,11 +77,11 @@ Step2: Package the RV.m file into .jar file
 
   _Step2.6:_ Click "compile" to generate the Runtime.jar   
 
-Step8: Import .java files of Runtime Verification package into MetTap project   
+Step3: Import .java files of Runtime Verification package into MetTap project   
 
-Step9: Reference the following two jar packages in MetTap project: Matlab installation directory\toolbox\javabuilder\jar\javabuilder.jar and Runtime.jar  
+Step4: Reference the following two jar packages in MetTap project: Matlab installation directory\toolbox\javabuilder\jar\javabuilder.jar and Runtime.jar  
 
-Step10: Run the Runtime_Verification.java and the rules will be verified    
+Step5: Run the Runtime_Verification.java and the rules will be verified    
 
 #### 4. Demos 
 In order to demonstrate the effectiveness of MetTap, we apply it to the real smart home scenarios and verify whether running states satisfy given properties. Then, we have carried out the experiments on an open source benchmark to evaluate the efficiency of the runtime verification approach.  
