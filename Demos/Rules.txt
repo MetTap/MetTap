@@ -1,10 +1,6 @@
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
-IF Tom leaves the room AND the room light is off THEN turn off the room light.
+IF Tom enters the room AND F:[0,5] the sun sets THEN turn on the room light.
+IF Event the temperature drops below 10 degree Celsius AND State Tom is in the room G:[0,3] THEN Event turn on the thermostat.
+IF Event Tom enters the study AND Event turn on the computer F:[0,10] THEN State the AC is on.
+IF Event Tom wakes up AND State the temperature below 15 degree Celsius THEN State the AC is on G:[0,25].
+IF State Tom is at home AND  State the AC is on G:[0,60] THEN Event the windows is on G:[0,10].
+IF State it is before 21:00 in the morning AND State coffee was not ready THEN State the coffee_machine is on G:[0,10].
