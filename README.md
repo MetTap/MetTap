@@ -81,7 +81,19 @@ Step9: Reference the following two jar packages in MetTap project: Matlab instal
 
 Step10: Run the Runtime_Verification.java and the rules will be verified    
 
-#### 4. Case Study
-In this section, we show how MetTap can be used to specify rules with timing constraints and verify whether applications execute correctly in home-based IoT system.  
+#### 4. Demos 
+In order to demonstrate the effectiveness of MetTap, we apply it to the real smart home scenarios and verify whether running states satisfy given properties. Then, we have carried out the experiments on an open source benchmark to evaluate the efficiency of the runtime verification approach.  
 
 If you want to reproduction experiment, you can load these data to test it in related procedures  
+
+Case Study Rules---Rules.txt  
+
+Case Study Data---sensor_data.csv  
+
+With the requirements of users in home-based IoT, we construct several rules in this scenario. The result of the experiments show that when the triggers are satisfied, the rules can be triggered correctly. In order to evaluate the runtime verification approach, it is necessary to make the equipment and environment produce enough running states to cover various possible use cases. We change the state of devices manually to simulate the situation that the rules cannot be executed correctly in real world. We select several rules for verification, such as the rule``IF Event Tom wakes up AND State the temperature below 15 degree Celsius THEN State the AC is on G:[0,25]''. When the triggers are satisfied, the air conditioner is on. We then turn off the air conditioner manually within 25 minutes to simulate that the action cannot be executed correctly. Through experiments, our runtime verification approach effectively found that the rule was not satisfied and generated an error log.
+
+Performance Analysis Rules--- PARules.txt
+
+Performance Analysis Data--- Example.csv
+
+In the first experiment, we consider two factors which will have an influence on the performance of runtime verification, i.e., the number of properties and amount of running state data. We adjust the amount of running state data from 500 to 5000. At the same time, we also adjust the number of properties from 10 to 50. For each experiment, the simulation system runs 30 times, and the time  overhead with a specific amount of data and number of properties is recorded and averaged.
