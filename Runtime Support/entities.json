@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Tom",
+    "entity_id": "input_boolean.tom_home",
+    "value_type": "bool",
+    "region": "home"
+  },
+  {
+    "name": "takeout",
+    "entity_id": "input_boolean.takeout",
+    "value_type": "bool"
+  },
+  {
+    "name": "temperature",
+    "entity_id": "input_number.temperature",
+    "value_type": "number"
+  },
+  {
+    "name": "Tom",
+    "entity_id": "input_boolean.tom_room",
+    "value_type": "bool",
+    "region": "room"
+  },
+  {
+    "name": "Tom",
+    "entity_id": "input_boolean.tom_study",
+    "value_type": "bool",
+    "region": "study"
+  },
+  {
+    "name": "thermostat",
+    "entity_id": "input_boolean.thermostat",
+    "value_type": "bool"
+  },
+  {
+    "name": "computer",
+    "entity_id": "input_boolean.computer",
+    "value_type": "bool"
+  },
+  {
+    "name": "AC",
+    "entity_id": "input_boolean.ac",
+    "value_type": "bool"
+  },
+  {
+    "name": "Tom",
+    "entity_id": "input_boolean.tom_wake_up",
+    "value_type": "bool",
+    "region": "wake"
+  },
+  {
+    "name": "coffee",
+    "entity_id": "input_boolean.coffee",
+    "value_type": "bool"
+  },
+  {
+    "name": "coffee_machine",
+    "entity_id": "input_boolean.coffee_machine",
+    "value_type": "bool"
+  },
+  {
+    "name": "windows",
+    "entity_id": "input_boolean.windows",
+    "value_type": "bool"
+  },
+  {
+    "name": "sun",
+    "entity_id": "input_boolean.sun",
+    "value_type": "bool"
+  },
+  {
+    "name": "light",
+    "entity_id": "input_boolean.light",
+    "value_type": "bool",
+    "region": "room"
+  }
+]
